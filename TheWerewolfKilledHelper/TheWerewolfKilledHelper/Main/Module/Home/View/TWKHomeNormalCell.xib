@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TWKHomeNormalCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH8-ll-64n">
+                        <rect key="frame" x="16" y="15" width="40" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a01-7U-AO1">
+                        <rect key="frame" x="314" y="15" width="40" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yy_ArrowIcon" translatesAutoresizingMaskIntoConstraints="NO" id="biK-5e-QZt">
+                        <rect key="frame" x="358" y="18" width="9" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="9" id="Mx8-S6-okK" userLabel="width = 9"/>
+                            <constraint firstAttribute="height" constant="14" id="lF1-Jw-lCO" userLabel="height = 14"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xLi-Q4-qMz">
+                        <rect key="frame" x="16" y="49" width="359" height="0.5"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="gnl-kE-kN9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="biK-5e-QZt" secondAttribute="trailing" constant="8" id="2wW-Y3-wr3"/>
+                    <constraint firstAttribute="trailing" secondItem="xLi-Q4-qMz" secondAttribute="trailing" id="6WB-un-x2k"/>
+                    <constraint firstItem="biK-5e-QZt" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="HCn-ra-7AS"/>
+                    <constraint firstAttribute="bottom" secondItem="xLi-Q4-qMz" secondAttribute="bottom" id="RzU-Zr-8kO"/>
+                    <constraint firstItem="biK-5e-QZt" firstAttribute="leading" secondItem="a01-7U-AO1" secondAttribute="trailing" constant="4" id="UuO-bX-kC6"/>
+                    <constraint firstItem="MH8-ll-64n" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Yau-gQ-Eph"/>
+                    <constraint firstItem="MH8-ll-64n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="i7Z-zZ-tPs"/>
+                    <constraint firstItem="xLi-Q4-qMz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="mVd-FV-GCs"/>
+                    <constraint firstItem="a01-7U-AO1" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="yZO-0F-Bs8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="138.40000000000001" y="154.72263868065968"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="yy_ArrowIcon" width="9" height="14"/>
+    </resources>
+</document>

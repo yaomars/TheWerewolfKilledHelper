@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D76CEE421D48B570020A6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CEE321D48B570020A6E4 /* AppDelegate.m */; };
+		3D76CEEC21D48B590020A6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CEEB21D48B590020A6E4 /* Assets.xcassets */; };
+		3D76CEEF21D48B590020A6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CEED21D48B590020A6E4 /* LaunchScreen.storyboard */; };
+		3D76CEF221D48B590020A6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CEF121D48B590020A6E4 /* main.m */; };
+		3D76CF0621D4A0B80020A6E4 /* TWKRootTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF0521D4A0B80020A6E4 /* TWKRootTabBarVC.m */; };
+		3D76CF0921D4A1600020A6E4 /* TWKBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF0821D4A1600020A6E4 /* TWKBaseVC.m */; };
+		3D76CF0C21D4A18E0020A6E4 /* TWKBaseNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF0B21D4A18E0020A6E4 /* TWKBaseNavVC.m */; };
+		3D76CF1321D4A2380020A6E4 /* TWKHomeNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF1221D4A2380020A6E4 /* TWKHomeNavVC.m */; };
+		3D76CF1621D4A2550020A6E4 /* TWKMyNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF1521D4A2550020A6E4 /* TWKMyNavVC.m */; };
+		3D76CF1921D4A3690020A6E4 /* TWKHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF1821D4A3690020A6E4 /* TWKHomeVC.m */; };
+		3D76CF1C21D4A3880020A6E4 /* TWKMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF1B21D4A3880020A6E4 /* TWKMyVC.m */; };
+		3D76CF2421D5117B0020A6E4 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF2221D5117B0020A6E4 /* UIColor+Category.m */; };
+		3D76CF2921D5154F0020A6E4 /* TWKHomeNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF2721D5154F0020A6E4 /* TWKHomeNormalCell.m */; };
+		3D76CF2A21D5154F0020A6E4 /* TWKHomeNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CF2821D5154F0020A6E4 /* TWKHomeNormalCell.xib */; };
+		3D76CF2E21D5B4920020A6E4 /* TWKHomeGodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF2C21D5B4920020A6E4 /* TWKHomeGodCell.m */; };
+		3D76CF2F21D5B4920020A6E4 /* TWKHomeGodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CF2D21D5B4920020A6E4 /* TWKHomeGodCell.xib */; };
+		3D76CF3A21D5E2750020A6E4 /* TWKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF3921D5E2750020A6E4 /* TWKPerson.m */; };
+		3D76CF3E21D5F6250020A6E4 /* TWKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF3D21D5F6250020A6E4 /* TWKTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D76CEDF21D48B570020A6E4 /* TheWerewolfKilledHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWerewolfKilledHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D76CEE221D48B570020A6E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D76CEE321D48B570020A6E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D76CEEB21D48B590020A6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D76CEEE21D48B590020A6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D76CEF021D48B590020A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D76CEF121D48B590020A6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D76CF0421D4A0B80020A6E4 /* TWKRootTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKRootTabBarVC.h; sourceTree = "<group>"; };
+		3D76CF0521D4A0B80020A6E4 /* TWKRootTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKRootTabBarVC.m; sourceTree = "<group>"; };
+		3D76CF0721D4A1600020A6E4 /* TWKBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKBaseVC.h; sourceTree = "<group>"; };
+		3D76CF0821D4A1600020A6E4 /* TWKBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKBaseVC.m; sourceTree = "<group>"; };
+		3D76CF0A21D4A18E0020A6E4 /* TWKBaseNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKBaseNavVC.h; sourceTree = "<group>"; };
+		3D76CF0B21D4A18E0020A6E4 /* TWKBaseNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKBaseNavVC.m; sourceTree = "<group>"; };
+		3D76CF1121D4A2380020A6E4 /* TWKHomeNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKHomeNavVC.h; sourceTree = "<group>"; };
+		3D76CF1221D4A2380020A6E4 /* TWKHomeNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKHomeNavVC.m; sourceTree = "<group>"; };
+		3D76CF1421D4A2550020A6E4 /* TWKMyNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKMyNavVC.h; sourceTree = "<group>"; };
+		3D76CF1521D4A2550020A6E4 /* TWKMyNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKMyNavVC.m; sourceTree = "<group>"; };
+		3D76CF1721D4A3690020A6E4 /* TWKHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKHomeVC.h; sourceTree = "<group>"; };
+		3D76CF1821D4A3690020A6E4 /* TWKHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKHomeVC.m; sourceTree = "<group>"; };
+		3D76CF1A21D4A3880020A6E4 /* TWKMyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKMyVC.h; sourceTree = "<group>"; };
+		3D76CF1B21D4A3880020A6E4 /* TWKMyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKMyVC.m; sourceTree = "<group>"; };
+		3D76CF2021D4FDAA0020A6E4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3D76CF2221D5117B0020A6E4 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		3D76CF2321D5117B0020A6E4 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		3D76CF2621D5154F0020A6E4 /* TWKHomeNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKHomeNormalCell.h; sourceTree = "<group>"; };
+		3D76CF2721D5154F0020A6E4 /* TWKHomeNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKHomeNormalCell.m; sourceTree = "<group>"; };
+		3D76CF2821D5154F0020A6E4 /* TWKHomeNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWKHomeNormalCell.xib; sourceTree = "<group>"; };
+		3D76CF2B21D5B4920020A6E4 /* TWKHomeGodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKHomeGodCell.h; sourceTree = "<group>"; };
+		3D76CF2C21D5B4920020A6E4 /* TWKHomeGodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKHomeGodCell.m; sourceTree = "<group>"; };
+		3D76CF2D21D5B4920020A6E4 /* TWKHomeGodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWKHomeGodCell.xib; sourceTree = "<group>"; };
+		3D76CF3621D5DC2D0020A6E4 /* GlobalVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalVariable.h; sourceTree = "<group>"; };
+		3D76CF3821D5E2750020A6E4 /* TWKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKPerson.h; sourceTree = "<group>"; };
+		3D76CF3921D5E2750020A6E4 /* TWKPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKPerson.m; sourceTree = "<group>"; };
+		3D76CF3C21D5F6250020A6E4 /* TWKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKTools.h; sourceTree = "<group>"; };
+		3D76CF3D21D5F6250020A6E4 /* TWKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D76CEDC21D48B570020A6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D76CED621D48B560020A6E4 = {
+			isa = PBXGroup;
+			children = (
+				3D76CEE121D48B570020A6E4 /* TheWerewolfKilledHelper */,
+				3D76CEE021D48B570020A6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D76CEE021D48B570020A6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CEDF21D48B570020A6E4 /* TheWerewolfKilledHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D76CEE121D48B570020A6E4 /* TheWerewolfKilledHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF3B21D5F5F80020A6E4 /* Comment */,
+				3D76CF3721D5E1F00020A6E4 /* CommonObject */,
+				3D76CF3521D5DBD80020A6E4 /* Variable */,
+				3D76CF2121D511210020A6E4 /* Category */,
+				3D76CEF821D49EEC0020A6E4 /* Main */,
+				3D76CEE221D48B570020A6E4 /* AppDelegate.h */,
+				3D76CEE321D48B570020A6E4 /* AppDelegate.m */,
+				3D76CF2021D4FDAA0020A6E4 /* PrefixHeader.pch */,
+				3D76CEEB21D48B590020A6E4 /* Assets.xcassets */,
+				3D76CEED21D48B590020A6E4 /* LaunchScreen.storyboard */,
+				3D76CEF021D48B590020A6E4 /* Info.plist */,
+				3D76CEF121D48B590020A6E4 /* main.m */,
+			);
+			path = TheWerewolfKilledHelper;
+			sourceTree = "<group>";
+		};
+		3D76CEF821D49EEC0020A6E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CEF921D49F1D0020A6E4 /* Root */,
+				3D76CEFA21D49F6A0020A6E4 /* Module */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D76CEF921D49F1D0020A6E4 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CEFD21D49FCB0020A6E4 /* Controller */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3D76CEFA21D49F6A0020A6E4 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CEFB21D49F8C0020A6E4 /* Home */,
+				3D76CEFC21D49FA60020A6E4 /* My */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		3D76CEFB21D49F8C0020A6E4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF2521D514FD0020A6E4 /* View */,
+				3D76CF0D21D4A1D00020A6E4 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D76CEFC21D49FA60020A6E4 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF0E21D4A1E00020A6E4 /* Controller */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		3D76CEFD21D49FCB0020A6E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF0421D4A0B80020A6E4 /* TWKRootTabBarVC.h */,
+				3D76CF0521D4A0B80020A6E4 /* TWKRootTabBarVC.m */,
+				3D76CF0A21D4A18E0020A6E4 /* TWKBaseNavVC.h */,
+				3D76CF0B21D4A18E0020A6E4 /* TWKBaseNavVC.m */,
+				3D76CF0721D4A1600020A6E4 /* TWKBaseVC.h */,
+				3D76CF0821D4A1600020A6E4 /* TWKBaseVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D76CF0D21D4A1D00020A6E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF0F21D4A1F90020A6E4 /* MainController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D76CF0E21D4A1E00020A6E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF1021D4A2060020A6E4 /* MainController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D76CF0F21D4A1F90020A6E4 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF1121D4A2380020A6E4 /* TWKHomeNavVC.h */,
+				3D76CF1221D4A2380020A6E4 /* TWKHomeNavVC.m */,
+				3D76CF1721D4A3690020A6E4 /* TWKHomeVC.h */,
+				3D76CF1821D4A3690020A6E4 /* TWKHomeVC.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		3D76CF1021D4A2060020A6E4 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF1421D4A2550020A6E4 /* TWKMyNavVC.h */,
+				3D76CF1521D4A2550020A6E4 /* TWKMyNavVC.m */,
+				3D76CF1A21D4A3880020A6E4 /* TWKMyVC.h */,
+				3D76CF1B21D4A3880020A6E4 /* TWKMyVC.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		3D76CF2121D511210020A6E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF2321D5117B0020A6E4 /* UIColor+Category.h */,
+				3D76CF2221D5117B0020A6E4 /* UIColor+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3D76CF2521D514FD0020A6E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF2621D5154F0020A6E4 /* TWKHomeNormalCell.h */,
+				3D76CF2721D5154F0020A6E4 /* TWKHomeNormalCell.m */,
+				3D76CF2821D5154F0020A6E4 /* TWKHomeNormalCell.xib */,
+				3D76CF2B21D5B4920020A6E4 /* TWKHomeGodCell.h */,
+				3D76CF2C21D5B4920020A6E4 /* TWKHomeGodCell.m */,
+				3D76CF2D21D5B4920020A6E4 /* TWKHomeGodCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D76CF3521D5DBD80020A6E4 /* Variable */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF3621D5DC2D0020A6E4 /* GlobalVariable.h */,
+			);
+			path = Variable;
+			sourceTree = "<group>";
+		};
+		3D76CF3721D5E1F00020A6E4 /* CommonObject */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF3821D5E2750020A6E4 /* TWKPerson.h */,
+				3D76CF3921D5E2750020A6E4 /* TWKPerson.m */,
+			);
+			path = CommonObject;
+			sourceTree = "<group>";
+		};
+		3D76CF3B21D5F5F80020A6E4 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				3D76CF3C21D5F6250020A6E4 /* TWKTools.h */,
+				3D76CF3D21D5F6250020A6E4 /* TWKTools.m */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D76CEDE21D48B570020A6E4 /* TheWerewolfKilledHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D76CEF521D48B590020A6E4 /* Build configuration list for PBXNativeTarget "TheWerewolfKilledHelper" */;
+			buildPhases = (
+				3D76CEDB21D48B570020A6E4 /* Sources */,
+				3D76CEDC21D48B570020A6E4 /* Frameworks */,
+				3D76CEDD21D48B570020A6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheWerewolfKilledHelper;
+			productName = TheWerewolfKilledHelper;
+			productReference = 3D76CEDF21D48B570020A6E4 /* TheWerewolfKilledHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D76CED721D48B560020A6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TWK;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yinyao;
+				TargetAttributes = {
+					3D76CEDE21D48B570020A6E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D76CEDA21D48B570020A6E4 /* Build configuration list for PBXProject "TheWerewolfKilledHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D76CED621D48B560020A6E4;
+			productRefGroup = 3D76CEE021D48B570020A6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D76CEDE21D48B570020A6E4 /* TheWerewolfKilledHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D76CEDD21D48B570020A6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D76CF2F21D5B4920020A6E4 /* TWKHomeGodCell.xib in Resources */,
+				3D76CEEF21D48B590020A6E4 /* LaunchScreen.storyboard in Resources */,
+				3D76CF2A21D5154F0020A6E4 /* TWKHomeNormalCell.xib in Resources */,
+				3D76CEEC21D48B590020A6E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D76CEDB21D48B570020A6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D76CF2E21D5B4920020A6E4 /* TWKHomeGodCell.m in Sources */,
+				3D76CF0921D4A1600020A6E4 /* TWKBaseVC.m in Sources */,
+				3D76CF2921D5154F0020A6E4 /* TWKHomeNormalCell.m in Sources */,
+				3D76CEF221D48B590020A6E4 /* main.m in Sources */,
+				3D76CEE421D48B570020A6E4 /* AppDelegate.m in Sources */,
+				3D76CF0C21D4A18E0020A6E4 /* TWKBaseNavVC.m in Sources */,
+				3D76CF3E21D5F6250020A6E4 /* TWKTools.m in Sources */,
+				3D76CF1C21D4A3880020A6E4 /* TWKMyVC.m in Sources */,
+				3D76CF1321D4A2380020A6E4 /* TWKHomeNavVC.m in Sources */,
+				3D76CF0621D4A0B80020A6E4 /* TWKRootTabBarVC.m in Sources */,
+				3D76CF3A21D5E2750020A6E4 /* TWKPerson.m in Sources */,
+				3D76CF1921D4A3690020A6E4 /* TWKHomeVC.m in Sources */,
+				3D76CF1621D4A2550020A6E4 /* TWKMyNavVC.m in Sources */,
+				3D76CF2421D5117B0020A6E4 /* UIColor+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D76CEED21D48B590020A6E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D76CEEE21D48B590020A6E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D76CEF321D48B590020A6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D76CEF421D48B590020A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D76CEF621D48B590020A6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JR27NWKY67;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TheWerewolfKilledHelper/PrefixHeader.pch";
+				INFOPLIST_FILE = TheWerewolfKilledHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yinyao.com.TheWerewolfKilledHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D76CEF721D48B590020A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JR27NWKY67;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TheWerewolfKilledHelper/PrefixHeader.pch";
+				INFOPLIST_FILE = TheWerewolfKilledHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yinyao.com.TheWerewolfKilledHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D76CEDA21D48B570020A6E4 /* Build configuration list for PBXProject "TheWerewolfKilledHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D76CEF321D48B590020A6E4 /* Debug */,
+				3D76CEF421D48B590020A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D76CEF521D48B590020A6E4 /* Build configuration list for PBXNativeTarget "TheWerewolfKilledHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D76CEF621D48B590020A6E4 /* Debug */,
+				3D76CEF721D48B590020A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D76CED721D48B560020A6E4 /* Project object */;
+}
