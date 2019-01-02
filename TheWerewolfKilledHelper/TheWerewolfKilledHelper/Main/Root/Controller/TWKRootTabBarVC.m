@@ -24,8 +24,8 @@
     TWKHomeNavVC *homeNav = [[TWKHomeNavVC alloc] initWithRootViewController:[TWKHomeVC new]];
     TWKMyNavVC   *myNav   = [[TWKMyNavVC alloc] initWithRootViewController:[TWKMyVC new]];
     
-    homeNav.tabBarItem = [self getCustomTabBarItemWithTitle:@"首页" normalImgName:@"yy_home_normal_tab_icon" selectedImageName:@"yy_home_select_tab_icon" normalTitleColor:[UIColor lightGrayColor] selectedTitleColor:[UIColor orangeColor] titleFontOfSize:14.f];
-    myNav.tabBarItem = [self getCustomTabBarItemWithTitle:@"我的" normalImgName:@"yy_my_normal_tab_icon" selectedImageName:@"yy_my_select_tab_icon" normalTitleColor:[UIColor lightGrayColor] selectedTitleColor:[UIColor orangeColor] titleFontOfSize:13.f];
+    homeNav.tabBarItem = [self getCustomTabBarItemWithTitle:@"首页" normalImgName:@"yy_home_normal_tab_icon" selectedImageName:@"yy_home_select_tab_icon" normalTitleColor:[UIColor lightGrayColor] selectedTitleColor:[UIColor redColor] titleFontOfSize:12.f];
+    myNav.tabBarItem = [self getCustomTabBarItemWithTitle:@"我的" normalImgName:@"yy_my_normal_tab_icon" selectedImageName:@"yy_my_select_tab_icon" normalTitleColor:[UIColor lightGrayColor] selectedTitleColor:[UIColor redColor] titleFontOfSize:12.f];
     
     self.viewControllers = @[homeNav, myNav];
 }

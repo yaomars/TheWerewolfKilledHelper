@@ -22,9 +22,9 @@
 		3D76CF2921D5154F0020A6E4 /* TWKHomeNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF2721D5154F0020A6E4 /* TWKHomeNormalCell.m */; };
 		3D76CF2A21D5154F0020A6E4 /* TWKHomeNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CF2821D5154F0020A6E4 /* TWKHomeNormalCell.xib */; };
 		3D76CF2E21D5B4920020A6E4 /* TWKHomeGodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF2C21D5B4920020A6E4 /* TWKHomeGodCell.m */; };
-		3D76CF2F21D5B4920020A6E4 /* TWKHomeGodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CF2D21D5B4920020A6E4 /* TWKHomeGodCell.xib */; };
 		3D76CF3A21D5E2750020A6E4 /* TWKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF3921D5E2750020A6E4 /* TWKPerson.m */; };
 		3D76CF3E21D5F6250020A6E4 /* TWKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76CF3D21D5F6250020A6E4 /* TWKTools.m */; };
+		3D76CF4421D771920020A6E4 /* TWKHomeGodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76CF4321D771920020A6E4 /* TWKHomeGodCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,12 +57,12 @@
 		3D76CF2821D5154F0020A6E4 /* TWKHomeNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWKHomeNormalCell.xib; sourceTree = "<group>"; };
 		3D76CF2B21D5B4920020A6E4 /* TWKHomeGodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKHomeGodCell.h; sourceTree = "<group>"; };
 		3D76CF2C21D5B4920020A6E4 /* TWKHomeGodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKHomeGodCell.m; sourceTree = "<group>"; };
-		3D76CF2D21D5B4920020A6E4 /* TWKHomeGodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWKHomeGodCell.xib; sourceTree = "<group>"; };
 		3D76CF3621D5DC2D0020A6E4 /* GlobalVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalVariable.h; sourceTree = "<group>"; };
 		3D76CF3821D5E2750020A6E4 /* TWKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKPerson.h; sourceTree = "<group>"; };
 		3D76CF3921D5E2750020A6E4 /* TWKPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKPerson.m; sourceTree = "<group>"; };
 		3D76CF3C21D5F6250020A6E4 /* TWKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWKTools.h; sourceTree = "<group>"; };
 		3D76CF3D21D5F6250020A6E4 /* TWKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWKTools.m; sourceTree = "<group>"; };
+		3D76CF4321D771920020A6E4 /* TWKHomeGodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TWKHomeGodCell.xib; path = ../../../../../../../.Trash/TWKHomeGodCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 		3D76CEE121D48B570020A6E4 /* TheWerewolfKilledHelper */ = {
 			isa = PBXGroup;
 			children = (
-				3D76CF3B21D5F5F80020A6E4 /* Comment */,
+				3D76CF3B21D5F5F80020A6E4 /* CommonTools */,
 				3D76CF3721D5E1F00020A6E4 /* CommonObject */,
 				3D76CF3521D5DBD80020A6E4 /* Variable */,
 				3D76CF2121D511210020A6E4 /* Category */,
@@ -222,7 +222,7 @@
 				3D76CF2821D5154F0020A6E4 /* TWKHomeNormalCell.xib */,
 				3D76CF2B21D5B4920020A6E4 /* TWKHomeGodCell.h */,
 				3D76CF2C21D5B4920020A6E4 /* TWKHomeGodCell.m */,
-				3D76CF2D21D5B4920020A6E4 /* TWKHomeGodCell.xib */,
+				3D76CF4321D771920020A6E4 /* TWKHomeGodCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,13 +244,13 @@
 			path = CommonObject;
 			sourceTree = "<group>";
 		};
-		3D76CF3B21D5F5F80020A6E4 /* Comment */ = {
+		3D76CF3B21D5F5F80020A6E4 /* CommonTools */ = {
 			isa = PBXGroup;
 			children = (
 				3D76CF3C21D5F6250020A6E4 /* TWKTools.h */,
 				3D76CF3D21D5F6250020A6E4 /* TWKTools.m */,
 			);
-			path = Comment;
+			path = CommonTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D76CF2F21D5B4920020A6E4 /* TWKHomeGodCell.xib in Resources */,
+				3D76CF4421D771920020A6E4 /* TWKHomeGodCell.xib in Resources */,
 				3D76CEEF21D48B590020A6E4 /* LaunchScreen.storyboard in Resources */,
 				3D76CF2A21D5154F0020A6E4 /* TWKHomeNormalCell.xib in Resources */,
 				3D76CEEC21D48B590020A6E4 /* Assets.xcassets in Resources */,

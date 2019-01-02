@@ -8,6 +8,7 @@
 
 #import "TWKHomeVC.h"
 #import "TWKHomeNormalCell.h"
+#import "TWKHomeGodCell.h"
 
 @interface TWKHomeVC ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -72,7 +73,9 @@
 
 #pragma mark - UITableViewDelegate
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    if (indexPath.section == 0) {
+        return 64.f;
+    }
     return 50.f;
 }
 
@@ -92,10 +95,17 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    TWKHomeNormalCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TWKHomeNormalCell" forIndexPath:indexPath];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    
-    return cell;
+    if (indexPath.section == 0) {
+        TWKHomeGodCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TWKHomeGodCell" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        return cell;
+    } else {
+        TWKHomeNormalCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TWKHomeNormalCell" forIndexPath:indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        return cell;
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -143,6 +153,8 @@
         _tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
         
         [_tableView registerNib:[UINib nibWithNibName:@"TWKHomeNormalCell" bundle:nil] forCellReuseIdentifier:@"TWKHomeNormalCell"];
+        //
+        [_tableView registerNib:[UINib nibWithNibName:@"TWKHomeGodCell" bundle:nil] forCellReuseIdentifier:@"TWKHomeGodCell"];
         
     }
     return _tableView;

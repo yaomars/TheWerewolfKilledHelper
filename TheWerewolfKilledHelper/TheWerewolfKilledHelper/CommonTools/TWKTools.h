@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class TWKPerson;
 
 @interface TWKTools : NSObject
 
 ///获取神职人员集合
-+ (NSArray<NSString *> *)getPriestArray;
++ (NSArray<TWKPerson *> *)getPriestArray;
 
 @end
 
